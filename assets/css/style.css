@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section {
+    display: inline-flex;
+    margin-right: 25px;
+}
+
+.aboutMe {
+    text-align: right;
+    margin-right: 50px;
+    padding-right: 50px;
+    border-right: solid;
+    border-right-color: black;
+    border-right-width: 5px;
+    justify-content:flex-end;
+    width: 25%;
+}
+
+.aboutMeContent {
+    padding: 50px;
+    background-color: #0072bb;
+}
